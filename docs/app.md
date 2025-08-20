@@ -27,14 +27,16 @@ podcast feito em video
         {
             podcastName: "flow",
             episode: "CBUM - Flow #319",
-            cover: "https://i.ytimg.com/vi/pQSuQmUfS30/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCeNGQeHGq3EN9VBoh7CCsKQU0L4Q",
+            videoId: "pQSuQmUfS30",
+            cover: "https://i.ytimg.com/vi/pQSuQmUfS30/maxresdefault.jpg",
             link: "https://www.youtube.com/live/pQSuQmUfS30?si=Pt9AzlpOdNI9HBg3",
             categories: ["saude", "bodybuilder"]
         },
         {
             podcastName: "flow",
             episode: "CLÓVIS DE BARROS - Flow #477",
-            cover: "https://i.ytimg.com/vi/sVfBJY-YWAM/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCdyjaKLLRH8HBlPThfDiMUjgBxcw",
+            videoId: "sVfBJY-YWAM",
+            cover: "https://i.ytimg.com/vi/sVfBJY-YWAM/maxresdefault.jpg",
             link: "https://www.youtube.com/live/sVfBJY-YWAM?si=UeDkAn6gTs_o2duo",
             categories: ["saude", "politica"]
         }
