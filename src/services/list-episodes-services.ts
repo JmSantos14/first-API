@@ -1,33 +1,5 @@
-# Podcast Manager 
-
-# Descrição
-
-um app estilo netflix para ter videos de podcast
-
-# Dominio 
-
-podcast feito em video
-
-### Features 
-
-- Listar os eps, podcasts em sessoes de categorias 
-    - [saude, fitness, mentalidade, humor]
-- Filtrar eps por nome do podcast
-
-## Como 
-
-### Feature:
-    Listar os eps dos podcasts em sessoes de categorias 
-
-### Como vou implementar:
-    Vou retornar em uma api rest o nome do poscast, episodio, imagem de capa, link, categoria 
-
-    GET: retorna lista de episodios
-    response: 
-
-
-    ```js
-    [
+export const serviceListEpisodes = async () => {
+    const data = [
         {
             podcastName: "flow",
             episode: "CBUM - Flow #319",
@@ -44,5 +16,6 @@ podcast feito em video
             link: "https://www.youtube.com/live/sVfBJY-YWAM?si=UeDkAn6gTs_o2duo",
             categories: ["saude", "politica"]
         }
-    ]
-    ```
+    ];
+    return data
+}
