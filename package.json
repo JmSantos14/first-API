@@ -11,7 +11,7 @@
     "start: watch": "tsx watch --env-file=.env src/server.ts",
     "dist": "tsup src",
     "start:dist": "npm run dist && --env-file=.env node/server.js",
-    "git:push": "git add . && git commit -m \"add: service do proj\" && git push",
+    "git:push": "git add . && git commit -m \"add: service de filtro\" && git push",
     "git:pull": "git pull"
   },
   "repository": {
@@ -21,7 +21,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/JmSantos14/first-API/issues"
   },

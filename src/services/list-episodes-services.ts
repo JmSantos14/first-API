@@ -1,21 +1,7 @@
+import { repositoryPodcast } from "../repositories/podcasts-repository"
+
 export const serviceListEpisodes = async () => {
-    const data = [
-        {
-            podcastName: "flow",
-            episode: "CBUM - Flow #319",
-            videoId: "pQSuQmUfS30",
-            cover: "https://i.ytimg.com/vi/pQSuQmUfS30/maxresdefault.jpg",
-            link: "https://www.youtube.com/live/pQSuQmUfS30?si=Pt9AzlpOdNI9HBg3",
-            categories: ["saude", "bodybuilder"]
-        },
-        {
-            podcastName: "flow",
-            episode: "CLÓVIS DE BARROS - Flow #477",
-            videoId: "sVfBJY-YWAM",
-            cover: "https://i.ytimg.com/vi/sVfBJY-YWAM/maxresdefault.jpg",
-            link: "https://www.youtube.com/live/sVfBJY-YWAM?si=UeDkAn6gTs_o2duo",
-            categories: ["saude", "politica"]
-        }
-    ];
+    const data = await repositoryPodcast();
+
     return data
 }
